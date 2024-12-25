@@ -1,7 +1,7 @@
 import pytest
 from main import perimeter
 
-def test_perimter():
+def test_perimeter():
     assert perimeter(4, 5) == 18
     with pytest.raises(ValueError, match="Undefined"):
         perimeter(0, 5)
