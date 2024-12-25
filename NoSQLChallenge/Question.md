@@ -12,3 +12,4 @@ Write the following MongoDB queries for the store:
 2. Find the total number of orders placed by a user (given their user_id), including the total amount spent.
 3. List all users who have purchased a specific product (given its product_id), including their name and email address.
 4. Update the stock quantity of a product (given its product_id) after an order is placed, considering the quantity of the product purchased in the order.
+
