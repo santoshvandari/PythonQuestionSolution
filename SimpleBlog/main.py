@@ -1,10 +1,9 @@
 from fastapi import FastAPI
-import routes
+from routes import router
 
 app = FastAPI()
 
-# Include the post routes
-app.include_router(routes)
+app.include_router(router)
 
 @app.get("/")
 def read_root():
